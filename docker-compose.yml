@@ -1,8 +1,6 @@
 version: '2'
 services:
   jenkins:
-    # image: 'bitnami/jenkins:2'
-    # image: dirane/jenkins-docker-ansible-clair
     image: eazytraining/jenkins
     ports:
       - '8080:8080'
